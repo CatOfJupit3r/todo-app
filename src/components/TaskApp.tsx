@@ -34,9 +34,12 @@ export const TaskApp = () => {
 
     return (
         <>
-            <h1 style={{
+            <h1
+                style={{
                 fontSize: "75px"
-            }}>Todo App</h1>
+            }}
+                className={"notSelectable"}
+            >Todo App</h1>
             <EnterTask addTask={addTask}/>
             <TaskActions tasks={tasks} setTasks={setTasks} />
             <TaskDisplay tasks={tasks} removeTask={deleteTask} changeCompletion={changeCompletion}/>

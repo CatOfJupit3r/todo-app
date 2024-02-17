@@ -6,11 +6,11 @@ import styles from '../styles/Task.module.css'
 
 export default function Task (props: {
     task: TaskInterface,
-    id: string,
     removeTask: Function
     changeCompletion: Function
 }) {
-    const {task, id, removeTask, changeCompletion} = props
+    const {task, removeTask, changeCompletion} = props
+    const id = task.id
 
     return <div onDoubleClick={() => (removeTask(id))} className={task.isDone ? styles.taskDone : styles.task}>
         <div className={styles.taskInnerContent}>

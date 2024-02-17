@@ -40,12 +40,12 @@ export default function EnterTask (props: {
                 inputMode={"text"}
                 onChange={(e) => (changeText(e))}
                 placeholder={"Enter task name"}
-                className={styles.inputTask  + " " + styles.normalize}
+                className={`${styles.inputTask + " " + styles.normalize} notSelectable`}
             />
             <button
                 type={"button"}
                 onClick={(e) => (onClickButton(e))}
-                className={styles.submitTask + " " + styles.normalize}
+                className={`${styles.submitTask + " " + styles.normalize} notSelectable`}
             >Add!</button>
         </form>
     </div>

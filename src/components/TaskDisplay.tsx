@@ -24,7 +24,7 @@ export default function TaskDisplay (props: {
     return (tasks.length > 0 ?
         (<div className={styles.display}>
         {tasks.map((task, index) => (
-            <Task task={task} key={index} id={index} removeTask={removeTask} changeCompletion={changeCompletion}/>
+            <Task task={task} key={index} removeTask={removeTask} changeCompletion={changeCompletion}/>
         ))}
         {completedTasks()}
     </div>)
