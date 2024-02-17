@@ -1,0 +1,87 @@
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+    background-color: #88a8b9;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.taskInnerContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+}
+
+.taskDone {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+    background-color: #a1c4d7;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.taskHeader {
+    display: inline-block;
+    object-position: left;
+    word-wrap: anywhere;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    margin-right: 25px;
+}
+
+.taskButton {
+    margin-right: 25px;
+    border: none;
+    font-size: 25px;
+    min-width: 150px;
+    min-height: 50px;
+    border-radius: 5px;
+    background: whitesmoke;
+}
+
+
+.taskButton:active {
+    background: #d0d0d0;
+}
+
+
+.todoIcon, .actionIcons {
+    margin-top: 5px;
+    min-font-size: 25px;
+    font-size: 25px;
+    color: #284366;
+}
+
+.todoIcon {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.actionIcons {
+    position: static;
+    margin-left: 5px;
+    margin-right: 10px;
+    transition-duration: 100ms;
+    opacity: 0.5;
+}
+
+.actionIcons:hover {
+    color: #114b8f;
+    cursor: pointer;
+    transition-duration: 100ms;
+    transform: scale(1.5);
+    opacity: 1;
+}
+
+.actionButtons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+    margin-right: 25px;
+}

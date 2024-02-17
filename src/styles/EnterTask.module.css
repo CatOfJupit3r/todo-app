@@ -1,0 +1,24 @@
+.normalize {
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 25px;
+    border-radius: 0;
+    -webkit-appearance: none;
+    border: 1px solid transparent;
+}
+
+.inputTask {
+    background-color: #d1d3ad;
+    height: auto;
+    width: 300px;
+}
+
+
+.submitTask {
+    height: auto;
+    margin-left: 10px;
+    -webkit-box-shadow:inset 0 0 0 1px #3f698b;
+    -moz-box-shadow:inset 0 0 0 1px #3f698b;
+    box-shadow:inset 0 0 0 1px #3f698b;
+    background-color: #558ca5;
+}

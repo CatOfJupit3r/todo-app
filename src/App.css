@@ -1,0 +1,23 @@
+.App {
+  text-align: center;
+  font-family: "Segoe UI", Georgia sans-serif;
+  color: #284366;
+}
+
+html {
+  background-color: #c3c593;
+}
+
+.notSelectable {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+
+button:hover {
+  pointer-events: auto;
+  cursor: pointer;
+}
