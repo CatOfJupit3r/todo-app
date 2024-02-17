@@ -1,6 +1,5 @@
 import {TaskIF} from "../interfaces/TaskIF";
 import Task from "./Task";
-// @ts-ignore
 import styles from '../styles/TaskDisplay.module.css'
 
 export default function TaskDisplay (props: {

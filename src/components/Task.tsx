@@ -1,7 +1,7 @@
 import {TaskIF as TaskInterface} from "../interfaces/TaskIF";
 import { FaCheck } from "react-icons/fa";
 import { RiCalendarTodoLine, RiCalendarCheckLine, RiDeleteBack2Line } from "react-icons/ri";
-// @ts-ignore
+
 import styles from '../styles/Task.module.css'
 
 export default function Task (props: {
